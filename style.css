@@ -1,0 +1,179 @@
+ @font-face{
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Regular.ttf"), url("./fonts/OpenSans-Regular.woff") ;
+} 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: inherit;
+    padding: 2em; */
+    margin: 0 auto;
+    width: 960px;
+}
+h1,h2{
+     color:brown ;
+ }   
+ header{
+     background-image: url(./images/coffee-beans.jpg);
+     height: 100px;
+     margin-bottom: 70px;
+   
+ }
+header h1{
+    color: rgba(250, 245, 245, 0.856);
+    font-size: 40px;
+    text-indent: 1em; 
+}   
+header nav ul{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+footer nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;  
+    float: left; 
+    width: 160px;                                                                                                                  
+    font-weight: bold; 
+   
+}
+header nav a:link, header nav a:visited {
+    color: white;
+    background-color: brown;
+    text-decoration: inherit;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px 0; 
+    margin-top: -4px; 
+}
+
+header nav a:hover{
+    background-color: black;
+}
+
+footer nav a:link, footer nav a:visited {
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 160px;
+    background-color: white;
+    padding: 0px 0 50px 0;
+    
+}
+
+footer nav a:hover{
+    color: black;
+    font-weight: bold
+}
+
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+blockquote.cita1{
+    width: 15em;
+    height: 15em;
+    background-color: rgb(207, 165, 109);
+    float: right;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    /* margin-left: 20px ; */
+    
+}
+
+img.taza{
+    padding-right: 1em;
+    float: left;
+    position: relative;
+    right: 30px;
+}
+
+section p a{
+    color: brown;
+    text-decoration: inherit;
+}
+
+ul{
+    list-style-image:url(./images/tiny-coffee-cup.gif);
+    list-style-position: inside;
+}
+
+ul.brewing a:link, ul.brewing a:visited{
+    color: brown;
+   text-decoration: inherit;
+   font-weight: bold;
+}
+ul.brewing a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+figure.grinder{
+    float: right;
+
+}
+
+table, th, td{
+    border: 1px solid black
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center ;
+    margin: 0 auto;
+    /* font-weight: bold; */
+    table-layout: fixed;
+    margin-bottom: 40px;
+}
+td, th{
+  padding: 5px;
+}  
+caption{
+    font-weight: bold;
+}
+
+/* header{
+    position: sticky;
+    top: 0px;
+} */
+
+aside figure{
+    width: 18em;
+    background-color: rgb(207, 165, 109);
+    float: right;
+    text-align: center;
+    padding: 1em;
+
+}
+
+section figure{
+    float: right;
+    margin: 20px;
+}
+
+/* p span.prueba{ 
+    position: absolute;
+    display: block;
+    top: 1em;
+    z-index: 3;
+}  */
+
+figure.espresso{
+    width: 350px;
+    height: 250px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(207, 165, 109); 
+    margin: 0 20px 0 20px;
+    
+}

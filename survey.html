@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Coffee Survey</title>
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+				<h1>All About Coffee</h1><br/>
+				<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Roasting.html">Roasting</a></li>
+					<li><a href="Grinding.html">Grinding</a></li>
+					<li><a href="Brewing.html">Brewing</a></li>
+					<li><a href="Drinks.html">Drinks</a></li>
+					<li><a href="Survey.html">Coffee Survey</a></li>
+				</ul>
+				</nav>
+			</header>
+		<h1>Coffee Survey</h1>
+			<aside>
+				<figure class="espresso">
+					<img  src="./images/espresso.jpg" alt="espresso" title="espresso"/>
+				</figure>
+			</aside>
+			<form action="#" method="GET">
+			<fieldset>
+				<legend><b>Personal Information</b></legend>
+			<b><label for="id_name">Your Name</label></b>	 
+				<br/>
+					<input type="text" name="name" id="id_name" size="40" required autofocus/>
+				<br/>
+				<b><label for="id_email">Email Address</label></b> 
+				<br/>
+					<input type="email" name="email" size="40" required placeholder="enter a valid email address" id="id_email"/>
+			</fieldset>
+			<fieldset>
+				<legend><b>Your Coffee Preferences:</b></legend>
+				<b>Tell us your coffee preparation methods.</b> 
+				<br/>
+				<textarea name="tarea_coment" id="id_preparation" cols="40" rows="6"></textarea>
+				<br/>
+				<br/>
+				<b>Do you grind your own beans?</b> 
+				<br/>
+				<input type="radio" name="grind" id="id_yes" value="yes"/><label for="id_yes"> yes</label>
+				<br/>
+				<input type="radio" name="grind" id="id_no" value="no"><label for="id_no"> no</label>
+				<br/>
+				<br/>
+				<b>How do you drink your coffee?</b> 
+				<br/>
+				<input type="checkbox" name="cb_ws" id="id_ws" value="sugar"/><label for="id_ws"> with sugar</label> 
+				<br/>
+				<input type="checkbox" name="cb_ws" id="id_wc" value="cream"/><label for="id_wc" > with cream</label>
+				<br/>
+				<br/>
+				<b>What is your favorite coffee drink?</b> 
+				<br/>
+				<select name="fav" id="id_fav">
+					<option value="">please select a drink</option>
+					<option value="opt_drip">drip coffee</option>
+					<option value="opt_french">french press</option>
+					<option value="opt_espresso">espresso</option>
+					<option value="opt_latte">latte</option>
+					<option value="opt_flavored">flavored</option>
+				</select>
+				<br/>
+				<br/>
+				<input type="submit" value="Submit"/>  &nbsp;&nbsp;&nbsp;<input type="reset" value="Reset"/>
+
+			</fieldset>
+			</form>
+			<footer>
+				<br/>
+				<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Roasting.html">Roasting</a></li>
+					<li><a href="Grinding.html">Grinding</a></li>
+					<li><a href="Brewing.html">Brewing</a></li>
+					<li><a href="Drinks.html">Drinks</a></li>
+					<li><a href="Survey.html">Coffee Survey</a></li>
+				</ul>
+				</nav>
+			</footer>
+</body>
+</html>
